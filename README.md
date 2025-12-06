@@ -122,7 +122,7 @@ VITE_HUGGINGFACE_API_KEY=your_api_key_here
 
 ### Authentication
 
-The platform uses Clerk for authentication. To access protected endpoints, include the session token in the request headers:
+The platform uses Clerk for authentication. To access protected endpoints, include the session token in the request headers (modify youself as per the requirements):
 
 ```javascript
 headers: {
@@ -160,7 +160,7 @@ headers: {
 
 ### RESTful endpoint for querying and managing your database
 #### URL - https://wzmpiaqjnegnitfnahue.supabase.co
-
+### Diagrams and workflows
 ## 🏗️ Code Architecture
 
 ### Frontend Structure

@@ -1,22 +1,19 @@
-# Configuration for automatic PR labeling
-# This works with the workflows above
-
-# Label PRs that only modify documentation
 documentation:
-  - '**/*.md'
-  - '**/*.rst'
-  - '**/*.txt'
-  - 'docs/**/*'
+  - patterns:
+      - '**/*.md'
+      - '**/*.rst'
+      - '**/*.txt'
+      - 'docs/**/*'
 
-# Label PRs that modify README
 readme-changes:
-  - 'README.md'
-  - 'README.rst'
-  - 'README.txt'
-  - 'readme.md'
+  - patterns:
+      - 'README.md'
+      - 'README.rst'
+      - 'README.txt'
+      - 'readme.md'
 
-# Label PRs that modify contributor files
 contributors:
-  - 'CONTRIBUTORS.md'
-  - 'CONTRIBUTORS.txt'
-  - '.all-contributorsrc'
+  - patterns:
+      - 'CONTRIBUTORS.md'
+      - 'CONTRIBUTORS.txt'
+      - '.all-contributorsrc'
